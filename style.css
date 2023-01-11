@@ -1,0 +1,32 @@
+.container{
+  height: 100vh;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center ;
+  background-color: linen;
+}
+.callender-container{
+  border-radius: 10px;
+  padding: 20px;
+  background-color: gray;
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+  grid-gap: 10px;
+  font-size: 1.7rem;
+}
+
+.day{
+  color: orange;
+}
+.date{
+  color: whitesmoke;
+}
+.month{
+  display: block ;
+}
+
+.cur{
+  background-color: yellowgreen;
+  border-radius: 10%;
+}
